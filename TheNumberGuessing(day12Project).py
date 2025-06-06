@@ -1,7 +1,7 @@
 from random import randint
-from art import logo
+from art import the_number_logo
 
-print(logo)
+print(the_number_logo)
 
 print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100.")
 
