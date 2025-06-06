@@ -41,9 +41,9 @@ def higher_lower_game():
     
     global SCORE, GAME_OVER, op_a, op_b
 
-    print(f"Compare A: {op_a["name"]}, a {op_a["description"]}, from {op_a["country"]}.{op_a["follower"]}")
+    print(f"Compare A: {op_a["name"]}, a {op_a["description"]}, from {op_a["country"]}.")
     print(the_vs_logo)
-    print(f"Against B: {op_b["name"]}, a {op_b["description"]}, from {op_b["country"]}.{op_b["follower"]}")
+    print(f"Against B: {op_b["name"]}, a {op_b["description"]}, from {op_b["country"]}.")
 
     type = input("Who has more followers? Type 'A' or 'B': ").lower()
 
