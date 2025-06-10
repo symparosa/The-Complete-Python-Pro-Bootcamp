@@ -33,6 +33,8 @@ def compare_options(op1,op2):
     
     if op1["follower"] > op2["follower"]:
         return True
+    elif op1["follower"] == op2["follower"]:
+        return True
     else:
         return False
 
